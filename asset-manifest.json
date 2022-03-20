@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/reviewmoto/static/css/main.8ca2f749.css",
+    "main.js": "/reviewmoto/static/js/main.6723fe5d.js",
+    "static/media/slider4.jpg": "/reviewmoto/static/media/slider4.e12b7190553eed8deee7.jpg",
+    "static/media/backgrSearch1.jpg": "/reviewmoto/static/media/backgrSearch1.08630b4ee36c57b38f0e.jpg",
+    "static/media/slider3.jpg": "/reviewmoto/static/media/slider3.9a9f9bce5ab16fa94cf4.jpg",
+    "static/media/slider1.jpg": "/reviewmoto/static/media/slider1.07f58d3399de73d13e6c.jpg",
+    "static/media/slider2.jpg": "/reviewmoto/static/media/slider2.f3e4018e4ea792f5aec3.jpg",
+    "static/media/logo.png": "/reviewmoto/static/media/logo.ff14feae181eed0967e0.png",
+    "index.html": "/reviewmoto/index.html",
+    "main.8ca2f749.css.map": "/reviewmoto/static/css/main.8ca2f749.css.map",
+    "main.6723fe5d.js.map": "/reviewmoto/static/js/main.6723fe5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ca2f749.css",
+    "static/js/main.6723fe5d.js"
+  ]
+}
