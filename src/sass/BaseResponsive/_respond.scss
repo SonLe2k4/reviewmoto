@@ -1,0 +1,83 @@
+
+// breackPoints
+$smallest: 0px;
+$phones: 576px;
+$landscape_phones: 768px;
+$tablets: 992px;
+$desktops: 1200px;
+$larger_desktops: 1400px;
+
+// self-defining breackPoints
+@mixin respond ($screen_dimensions) {
+    @media (min-width: $screen_dimensions) {
+        @content
+    }
+};
+
+// breackPoints default
+@mixin smallest {
+    @media (min-width: $smallest) {
+        @content
+    };
+};
+
+@mixin phones {
+    @media (min-width: $phones) {
+        @content
+    }
+};
+
+@mixin landscape_phones {
+    @media (min-width: $landscape_phones) {
+        @content
+    }
+};
+
+@mixin tablets {
+    @media (min-width: $tablets) {
+        @content
+    }
+};
+
+@mixin desktops {
+    @media (min-width: $desktops) {
+        @content
+    }
+};
+
+@mixin larger_desktops {
+    @media (min-width: $larger_desktops) {
+        @content
+    }
+};
+
+// has limit
+@mixin smallest_has_limit {
+    @media (min-width: $smallest) and (max-width: ($phones - 1px)) {
+        @content
+    }
+};
+
+@mixin phones_has_limit {
+    @media (min-width: $phones) and (max-width: ($landscape_phones - 1px)) {
+        @content
+    }
+};
+
+@mixin landscape_phones_has_limit {
+    @media (min-width: $landscape_phones) and (max-width: ($tablets - 1px)) {
+        @content
+    }
+};
+
+@mixin tablets_has_limit {
+    @media (min-width: $tablets) and (max-width: ($desktops - 1px)) {
+        @content
+    }
+};
+
+@mixin desktops_has_limit {
+    @media (min-width: $desktops) and (max-width: ($larger_desktops - 1px)) {
+        @content
+    }
+};

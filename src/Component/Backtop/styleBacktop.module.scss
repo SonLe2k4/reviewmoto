@@ -1,0 +1,21 @@
+@import '../../sass';
+
+.wp_backtop {
+    @include fixed(unset, 30px, 20px, unset);
+    @include d-f(center, center);
+    font-size: 30px;
+    transform: rotate(-45deg);
+    background-color: $_fff;
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid $_333;
+    z-index: 80;
+    cursor: pointer;
+    box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s linear;
+    &:hover {
+        color: $_fff;
+        border-color: $_eee;
+        background-color: $_000 
+    }
+}

@@ -1,0 +1,272 @@
+@import '../../sass';
+.heading {
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    background-color: $_fff;
+    padding: 20px 0;
+    text-shadow: 2px 8px 3px rgb(0 0 0 / 29%);
+    @include smallest_has_limit {
+        font-size: 1.5rem;
+    }
+    @include landscape_phones_has_limit {
+        font-size: 1.3rem;
+    }
+    @include phones_has_limit {
+        font-size: 1.5rem;
+    }
+}
+
+.wp_home {
+    background: $_fff url("https://wallpapercave.com/wp/wp7103150.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    .listMotos {
+        @include listMoto;
+        .itemMoto {
+            @include itemMoto;
+            @include smallest_has_limit {
+                max-width: 98%;                       
+            }
+            @include landscape_phones_has_limit {
+                max-width: 98%;
+            }
+            @include phones_has_limit {
+                max-width: 98%;
+            }
+            .top_itemMoto_wp {
+                display: flex;
+                justify-content: space-around;
+                @include smallest_has_limit {
+                    align-items: center;
+                    flex-direction: column;                       
+                }
+                @include landscape_phones_has_limit {
+                    align-items: center;
+                    flex-direction: column;
+                }
+                @include phones_has_limit {
+                    align-items: center;
+                    flex-direction: column;
+                }
+                @include tablets_has_limit {
+                    align-items: center;
+                    flex-direction: column;
+                }
+            }
+            .bottom_itemMoto_wp {
+                margin: 0 32px;
+                border-bottom:  2px solid #fff;
+                display: flex;
+                justify-content: center;
+                @include smallest_has_limit {
+                    margin: 0 10px;                       
+                }
+                @include landscape_phones_has_limit {
+                    margin: 0 10px;
+                }
+                @include phones_has_limit {
+                    margin: 0 10px;
+                }
+                & img {
+                    margin: 20px auto 0;
+                    width: 100%;
+                }
+            }
+            .info_itemMoto_wp {
+                position: relative;
+                background-color: rgba(10, 10, 10, 0.596);
+                color: #fff;
+                margin: 0 10px;
+                transition: ease .3s;
+                text-align: center;
+                padding: 0 16px;
+                max-width: 500px;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+                border: 1px solid #fff;
+                @include smallest_has_limit {
+                    min-height: 300px;
+                    max-width: 100%;
+                }
+                @include landscape_phones_has_limit {
+                    min-height: 200px;
+                    max-width: 100%;
+                }
+                @include phones_has_limit {
+                    min-height: 250px;
+                    max-width: 100%;
+                }
+                @include tablets_has_limit {
+                    max-width: 100%;
+                }
+                .name_bike {
+                    font-size: 60px;
+                    @include smallest_has_limit {
+                        font-size: 1.5rem;
+                    }
+                    @include landscape_phones_has_limit {
+                        font-size: 1.5rem;
+                    }
+                    @include phones_has_limit {
+                        font-size: 1.5rem;
+                    }   
+                }
+                .description_bike {
+                    padding: 20px 0;
+                    @include smallest_has_limit {
+                        margin-bottom: 90px;
+                    }
+                    @include landscape_phones_has_limit {
+                        margin-bottom: 90px;
+                    }
+                    @include phones_has_limit {
+                        margin-bottom: 90px;
+                    }
+                    @include tablets_has_limit {
+                        margin-bottom: 90px;
+                    }  
+                }
+                .show_more_btn {
+                    position: absolute;
+                    border: none;
+                    outline: none;
+                    border-top-left-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    font-size: 20px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    padding: 10px 20px;
+                    bottom: 20px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    transition: all 0.4s ease;
+                    &:hover {
+                        transform: translateY(-4px);
+                        transform: translateX(-50%);
+                        border-top-right-radius: 20px;
+                        border-bottom-left-radius: 20px;
+                        border-top-left-radius: 0;
+                        border-bottom-right-radius: 0;
+                        background: #222;
+                        color: #fff;
+                        border: 2px solid #fff;
+                    }
+                }
+            }
+            .img_itemMoto_wp {
+                max-width: 640px;
+                margin: 0 10px;
+                @include smallest_has_limit {
+                    margin-top: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 100%;
+                    align-items: center;
+                }
+                @include landscape_phones_has_limit {
+                    margin-top: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 100%;
+                    align-items: center;
+                }
+                @include phones_has_limit {
+                    margin-top: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 100%;
+                    align-items: center;
+                }
+                @include tablets_has_limit {
+                    max-width: 100%;
+
+                }
+                .wp_img_main {
+                    cursor: pointer;
+                    height: 380px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    @include smallest_has_limit {
+                        max-height: 614px;
+                        min-height: 174px;
+                        height: 60%;
+                    }
+                    @include landscape_phones_has_limit {
+                        max-height: 614px;
+                        min-height: 174px;
+                        height: auto;
+                    }
+                    @include phones_has_limit {
+                        max-height: 614px;
+                        min-height: 174px;
+                        height: auto;
+                    }
+                    @include tablets_has_limit {
+                        width: 100%;
+                        height: unset;
+                    }
+                    &:hover .img_itemMoto {
+                        transform: scale(1.1);
+                    }
+                }
+                .wp_more_img {
+                    margin-top: 30px;
+                    width: 100%;
+                    @include smallest_has_limit {
+                        margin: 20px;
+                    }
+                    @include landscape_phones_has_limit {
+                        margin: 20px;
+                    }
+                    @include phones_has_limit {
+                        margin: 20px;
+                    }
+                    display: flex;
+                    .wp_more_img_item {
+                        @include smallest_has_limit {
+                            margin: 0;
+                            height: auto;
+                        }
+                        @include landscape_phones_has_limit {
+                            margin: 0;
+                            height: auto;
+                        }
+                        @include phones_has_limit {
+                            margin: 0;
+                            height: auto;
+                        }
+                        @include tablets_has_limit {
+                            height: unset;
+                        }
+                        position: relative;
+                        overflow: hidden;
+                        width: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0 10px;
+                        border-radius: 30px;
+                        height: 190px;
+                        & img {
+                          width: 100%;  
+                          transition: all 0.3s ease; 
+                          &:hover {
+                            opacity: 0.9;
+                          }
+                        }    
+                    }
+                }
+                .img_itemMoto {
+                    border-radius: 10px;
+                    width: 100%;
+                    transition: .6s ease;
+                    animation: scale 8s infinite ease;
+                }
+            }
+        }
+    }
+    .galerry {
+        @include galerry;
+    }
+}

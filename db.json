@@ -1,0 +1,259 @@
+{
+    "top5MotosFast": [
+        {
+            "id": 1,
+            "name": "Kawasaki Ninja H2",
+            "description": "Là mẫu xe đầu bảng của Kawasaki, Ninja H2 sử dụng động cơ I4 siêu nạp, DOHC, 16 van, dung tích 998cc có công suất cực đại 207 mã lực nếu có ram air và mô-men xoắn cực đại 133 Nm. Tại thị trường Mỹ, xe có giá bán lên đến 25.000 USD.",
+            "imgUrl": [
+                "https://wallpapercave.com/wp/wp2102596.jpg",
+                "https://wallpapercave.com/wp/wp7103170.jpg", 
+                "https://wallpapercave.com/wp/wp1859209.jpg",
+                "https://wallpapercave.com/wp/wp7103211.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Yamaha R1M 2022",
+            "description": "Moto R1 có động cơ bốn xi-lanh thẳng hàng và dung tích xi lanh là 998cc. Khối động cơ này mang lại công suất cực cao và mạnh mẽ. Không chỉ sở hữu động cơ mạnh mẽ mà YZF-R1 còn có kiểu dáng cô cùng ấn tượng.",
+            "imgUrl": [
+                "https://wallpapercave.com/wp/wp8083686.jpg",
+                "https://wallpapercave.com/wp/wp8083773.jpg",
+                "https://wallpapercave.com/dwp1x/wp10581647.jpg",
+                "https://wallpapercave.com/wp/wp4808062.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "BMW S 1000RR",
+            "description": "động cơ Xăng 1.000 phân khối, 4 xy-lanh thẳng hàng DOHC 16 van. Cỗ máy này có khả năng sản sinh công suất tối đa 207 mã lực tại 13.500 vòng/phút, mô men xoắn cực đại 113 Nm tại 11.000 vòng/phút. Đi kèm là hộp số 6 cấp.",
+            "imgUrl": [
+                "https://wallpapercave.com/wp/wp8745010.jpg",
+                "https://wallpapercave.com/dwp1x/wp6186571.jpg",
+                "https://wallpapercave.com/dwp1x/wp7709661.jpg",
+                "https://wallpapercave.com/dwp2x/wp2167556.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "CBR1000RR-R 2022",
+            "description": "có động cơ sản sinh mức công suất tối đa lên đến 214 mã lực tại vòng tua 14.500 vòng/phút, trong khi mô-men xoắn tối đa mà xe có thể đạt được là 113 Nm tại 12.500 vòng/phút. Được biết khối động cơ này là loại DOHC 4 kỳ 16 van có dung tích 999,9cc.",
+            "imgUrl": [
+                "https://wallpapercave.com/wp/wp7266177.jpg",
+                "https://wallpapercave.com/dwp1x/wp7266192.jpg",
+                "https://wallpapercave.com/dwp1x/wp7266175.jpg",
+                "https://wallpapercave.com/wp/XFAgzEt.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Ducati Panigale V4S",
+            "description": "được xem là mẫu xe thương mại mạnh nhất hiện nay của hãng Ducati khi mang trên mình những thông số kỹ thuật rất đáng nể với khối động cơ Desmosedici Stradale V-Twin DOHC gồm 4 xy-lanh bố trí thành hình chữ V với góc đặt 90 độ, dung tích 1.103 cc, công suất 214 mã lực",
+            "imgUrl": [
+                "https://wallpapercave.com/wp/wp6902935.jpg",
+                "https://wallpapercave.com/wp/wp6291404.jpg",
+                "https://wallpapercave.com/wp/wp4282198.jpg",
+                "https://wallpapercave.com/wp/wp6291774.jpg"
+            ]
+        }
+    ],
+    "moreInfoMotos": [
+        {
+            "id": 1,
+            "name": "Kawasaki Ninja H2",
+            "titleRight": [
+                "ĐỘNG CƠ SIÊU NẠP",
+                "998 CM³, 4 XI-LANH THẲNG HÀNG",
+                "Các công nghệ",
+                "Tiên tiến"
+            ],
+            "cc": "1000",
+            "price": "1.299.000.000Đ",
+            "imgModal": [
+                {
+                    "id": 1,
+                    "path": "https://content2.kawasaki.com/ContentStorage/KMV/Products/4878/1b6b439e-ed64-4226-9248-aa557de00692.png?w=675"
+                },
+                {
+                    "id": 2,
+                    "path": "https://wallpapercave.com/wp/wp7103220.jpg"
+                }
+            ],
+            "libralyImg": [
+                {
+                    "id": 1,
+                    "path": "https://wallpapercave.com/wp/wp7103150.jpg"
+                },
+                {
+                    "id": 2,
+                    "path": "https://wallpapercave.com/wp/wp5888757.jpg"
+                },
+                {
+                    "id": 3,
+                    "path": "https://wallpapercave.com/wp/wp1890079.jpg"
+                },
+                {
+                    "id": 4,
+                    "path": "https://wallpapercave.com/wp/wp5888796.jpg"
+                },
+                {
+                    "id": 5,
+                    "path": "https://wallpapercave.com/wp/wp5050924.jpg"
+                },
+                {
+                    "id": 6,
+                    "path": "https://wallpapercave.com/wp/wp7103201.jpg"
+                },
+                {
+                    "id": 7,
+                    "path": "https://wallpapercave.com/wp/wp7103219.jpg"
+                },
+                {
+                    "id": 8,
+                    "path": "https://wallpapercave.com/wp/wp5690601.jpg"
+                }
+            ],
+            "ProductTechnology": [
+                {
+                    "id": 1,
+                    "technology": "Hỗ trợ sang số & chống trượt ly hợp",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/KMV/ProductTechIcons/b29e3c42-03b3-4caf-951c-ae675c12a5c0.svg",
+                        "img": ["https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/92b15a72-458f-4cac-9681-03f2cb0893b1.jpg"]
+                    },
+                    "video": [],
+                    "descriptionTechnology": ""
+                },
+                {
+                    "id": 2,
+                    "technology": "Chỉ số ECONOMICAL RIDING",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/KMV/ProductTechIcons/0df4f4a4-a0e0-40be-bfd4-718fce66954b.svg",
+                        "img": ["https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/b1db5867-00e8-42a7-8dd7-09f152cad431.jpg"]
+                    },
+                    "video": [],
+                    "descriptionTechnology": ""
+                },
+                {
+                    "id": 3,
+                    "technology": "Van tiết lưu điện tử",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/KMV/ProductTechIcons/c50b02e4-1a38-48c5-849a-a4a3b0c5f121.svg",
+                        "img": ["https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/8cc41369-ad34-4766-92ac-196836341e03.jpg"]
+                    },
+                    "video": [],
+                    "descriptionTechnology": ""
+                },
+                {
+                    "id": 4,
+                    "technology": "Kiểm soát phanh động cơ Kawasaki",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/KMV/ProductTechIcons/7f65f2e4-9b2f-421a-b5a5-fd68fc9f67ce.svg",
+                        "img": []
+                    },
+                    "video": [],
+                    "descriptionTechnology": ""
+                },
+                {
+                    "id": 5,
+                    "technology": "KLCM (Chế độ LAUNCH CONTROL KAWASAKI)",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/KMV/ProductTechIcons/7266cf87-c5e9-4c03-9e74-f7a3aaa1af96.svg",
+                        "img": ["https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/244d1d82-f65c-4fbd-b023-d629ede8170e.jpg"]
+                    },
+                    "video": [],
+                    "descriptionTechnology": ""
+                },
+                {
+                    "id": 6,
+                    "technology": "KTRC (Kiểm soát lực kéo KAWASAKI)",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/KMV/ProductTechIcons/83b1c55c-898a-40ce-a9a2-93b43c76845d.svg",
+                        "img": ["https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/244d1d82-f65c-4fbd-b023-d629ede8170e.jpg", "https://content2.kawasaki.com/ContentStorage/KMV/ProductTechIcons/83b1c55c-898a-40ce-a9a2-93b43c76845d.svg"]
+                    },
+                    "video": [],
+                    "descriptionTechnology": ""
+                },
+                {
+                    "id": 7,
+                    "technology": "Kết nối điện thoại thông minh",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/KMV/ProductTechIcons/c2e69a7b-3a21-4fee-90d5-693e6e4ab676.svg",
+                        "img": ["https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/7dae5f9f-2bb7-4551-a311-8907057a005e.jpg", "https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/245fa78e-c294-4f26-8030-35a7f587566b.jpg"]
+                    },
+                    "video": ["https://media.kawasaki.com/ContentStorage/538f1634-31a6-4e86-9a5c-df2a5510edf7_H264_1080.mp4"],
+                    "descriptionTechnology": ""
+                },
+                {
+                    "id": 8,
+                    "technology": "Động cơ siêu nạp",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/KMV/ProductTechIcons/32de9ea7-a3a7-49df-b687-c0d6643dadcf.svg",
+                        "img": ["https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/b378cea4-d122-4d22-88b9-e7f883430ac5.jpg", "https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/c3bf6d2a-37f1-47e8-a7a5-8538e765887d.jpg"]
+                    },
+                    "video": [],
+                    "descriptionTechnology": ""
+                },
+                {
+                    "id": 9,
+                    "technology": "Hỗ trợ sang số nhanh Kawasaki (KQS)",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/64ba51df-3a11-4278-8a40-9db22e6f9857.svg",
+                        "img": ["https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/01c4230e-0327-42ba-b266-21d9a0761515.jpg"]
+                    },
+                    "video": [],
+                    "descriptionTechnology": ""
+                },
+                {
+                    "id": 10,
+                    "technology": "Tính năng ABS (Hệ thống bó cứng phanh)",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/e44d9891-8639-4464-954b-1a6e2d0612ab.svg",
+                        "img": []
+                    },
+                    "video": [],
+                    "descriptionTechnology": ""
+                },
+                {
+                    "id": 11,
+                    "technology": "ERGO-FIT",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/0dc297fc-2041-4c7c-90a8-ce1ea3ccf7c2.svg",
+                        "img": []
+                    },
+                    "video": [],
+                    "descriptionTechnology": ""
+                },
+                {
+                    "id": 12,
+                    "technology": "IMU - Nâng cao khả năng định hướng khung sườn",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/cf074556-112d-4b9f-bbed-2ec62c94de7b.svg",
+                        "img": ["https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/01c4230e-0327-42ba-b266-21d9a0761515.jpg"]
+                    },
+                    "video": [],
+                    "descriptionTechnology": ""
+                },
+                {
+                    "id": 13,
+                    "technology": "KIBS (Hệ thống chống bó cứng phanh thông minh Kawasaki)",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/KMV/ProductTechIcons/3e1be5e6-3575-4bcc-99d6-e325b2d7ac97.svg",
+                        "img": ["https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/d8a19877-a8c5-4c64-ac97-48198de08922.jpg", "https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/7ec394ea-c14a-4795-a4a4-4e70e144e26c.jpg"]
+                    },
+                    "video": ["https://media.kawasaki.com/contentstorage/9075b24a-09b0-401d-837c-b3e9e8c00fbd.mp4"],
+                    "descriptionTechnology": ""
+                },
+                {
+                    "id": 14,
+                    "technology": "Sơn SILVER-MiRROR",
+                    "imgPath": {
+                        "logo": "https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/e58e3bbc-cba9-4fe5-99c6-e372da0f7790.svg",
+                        "img": ["https://content2.kawasaki.com/ContentStorage/CKM/ProductTechIcons/Media/f1a5781f-d92d-4f72-87b7-243ff80ee046.jpg"]
+                    },
+                    "video": [],
+                    "descriptionTechnology": ""
+                }
+            ]
+        }
+    ]
+}

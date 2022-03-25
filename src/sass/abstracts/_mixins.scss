@@ -1,0 +1,35 @@
+@mixin d-f( $justify-content, $align-items) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin width($width) {
+    width: $width;
+}
+
+@mixin height($height) {
+    height: $height;
+}
+
+@mixin w-h( $width, $height ) {
+    @include width($width);
+    @include height($height);
+}
+
+@mixin absolute($top: auto, $right: auto, $bottom: auto, $left: auto, $content: '') {
+    position: absolute;
+    content: $content;
+    top: $top;
+    left: $left;
+    bottom: $bottom;
+    right: $right;
+}
+
+@mixin fixed($top: 0, $right: 0, $bottom: 0, $left: 0) {
+    position: fixed;
+    top: $top;
+    left: $left;
+    bottom: $bottom;
+    right: $right;
+}

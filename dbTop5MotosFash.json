@@ -1,0 +1,57 @@
+ [
+    {
+        "id": 1,
+        "name": "Kawasaki Ninja H2",
+        "description": "Là mẫu xe đầu bảng của Kawasaki, Ninja H2 sử dụng động cơ I4 siêu nạp, DOHC, 16 van, dung tích 998cc có công suất cực đại 207 mã lực nếu có ram air và mô-men xoắn cực đại 133 Nm. Tại thị trường Mỹ, xe có giá bán lên đến 25.000 USD.",
+        "imgUrl": [
+            "https://wallpapercave.com/wp/wp2102596.jpg",
+            "https://wallpapercave.com/wp/wp7103170.jpg", 
+            "https://wallpapercave.com/wp/wp1859209.jpg",
+            "https://wallpapercave.com/wp/wp7103211.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Yamaha R1M 2022",
+        "description": "Moto R1 có động cơ bốn xi-lanh thẳng hàng và dung tích xi lanh là 998cc. Khối động cơ này mang lại công suất cực cao và mạnh mẽ. Không chỉ sở hữu động cơ mạnh mẽ mà YZF-R1 còn có kiểu dáng cô cùng ấn tượng.",
+        "imgUrl": [
+            "https://wallpapercave.com/wp/wp8083686.jpg",
+            "https://wallpapercave.com/wp/wp8083773.jpg",
+            "https://wallpapercave.com/dwp1x/wp10581647.jpg",
+            "https://wallpapercave.com/wp/wp4808062.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "BMW S 1000RR",
+        "description": "động cơ Xăng 1.000 phân khối, 4 xy-lanh thẳng hàng DOHC 16 van. Cỗ máy này có khả năng sản sinh công suất tối đa 207 mã lực tại 13.500 vòng/phút, mô men xoắn cực đại 113 Nm tại 11.000 vòng/phút. Đi kèm là hộp số 6 cấp.",
+        "imgUrl": [
+            "https://wallpapercave.com/wp/wp8745010.jpg",
+            "https://wallpapercave.com/dwp1x/wp6186571.jpg",
+            "https://wallpapercave.com/dwp1x/wp7709661.jpg",
+            "https://wallpapercave.com/dwp2x/wp2167556.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "CBR1000RR-R 2022",
+        "description": "có động cơ sản sinh mức công suất tối đa lên đến 214 mã lực tại vòng tua 14.500 vòng/phút, trong khi mô-men xoắn tối đa mà xe có thể đạt được là 113 Nm tại 12.500 vòng/phút. Được biết khối động cơ này là loại DOHC 4 kỳ 16 van có dung tích 999,9cc.",
+        "imgUrl": [
+            "https://wallpapercave.com/wp/wp7266177.jpg",
+            "https://wallpapercave.com/dwp1x/wp7266192.jpg",
+            "https://wallpapercave.com/dwp1x/wp7266175.jpg",
+            "https://wallpapercave.com/wp/XFAgzEt.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Ducati Panigale V4S",
+        "description": "được xem là mẫu xe thương mại mạnh nhất hiện nay của hãng Ducati khi mang trên mình những thông số kỹ thuật rất đáng nể với khối động cơ Desmosedici Stradale V-Twin DOHC gồm 4 xy-lanh bố trí thành hình chữ V với góc đặt 90 độ, dung tích 1.103 cc, công suất 214 mã lực",
+        "imgUrl": [
+            "https://wallpapercave.com/wp/wp6902935.jpg",
+            "https://wallpapercave.com/wp/wp6291404.jpg",
+            "https://wallpapercave.com/wp/wp4282198.jpg",
+            "https://wallpapercave.com/wp/wp6291774.jpg"
+        ]
+    }
+]

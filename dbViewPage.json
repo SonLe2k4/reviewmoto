@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Yamaha YZF-R1M",
+        "cc": "998cc",
+        "price": "638.000.000Đ",
+        "imgUrl": ["https://chayxe.vn/wp-content/uploads/2022/02/yamaha-yzf-r1m-2022-duoc-cap-nhat-them-mau-moi-chayxe-vn-3-678x381.jpg", "https://i1-vnexpress.vnecdn.net/2021/01/14/yamaha-r1m-vne-top-jpg-1610605-9182-1861-1610610110.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=QnyWVrMK3EshmltcES_A1Q", "https://ggstorage.oxii.vn/images/oxii-2019-10-25/728/2019-yamaha-yzf1000r1-eu-yamaha-blue-static-002.jpg"]
+    },
+    {
+        "id": 2,
+        "name": "Kawasaki Z1000",
+        "cc": "1000cc",
+        "price": "459.000.000Đ",
+        "imgUrl": ["https://xemay24h.com/wp-content/uploads/2021/08/Gia-xe-moto-Kawasaki-Z1000.jpg", "https://file.chodocu.com//2021/06/07/20210607094759-09bf.jpg", "https://thongsokythuat.net/wp-content/uploads/2020/03/thong-so-z1000-2020-gia-kawasaki-z1000.jpg"]
+    },
+    {
+        "id": 3,
+        "name": "Kawasaki Ninja H2",
+        "cc": "998cc",
+        "price": "1.299.000.000Đ",
+        "imgUrl": ["https://wallpapercave.com/dwp1x/wp1859244.jpg", "https://wallpapercave.com/dwp1x/wp6291944.jpg", "https://wallpapercave.com/dwp1x/wp6292115.jpg"]
+    },
+    {
+        "id": 4,
+        "name": "Ducati Panigale 959",
+        "cc": "959cc",
+        "price": "592.000.000Đ",
+        "imgUrl": ["https://photo-cms-xedoisong.zadn.vn/w700/Uploaded/2022/abhuhuo/2017_08_11/959corse/959_panigale_nltd.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ducati_959_Panigale_%28MSP16%29.jpg/800px-Ducati_959_Panigale_%28MSP16%29.jpg", "https://xemoto.vn/wp-content/uploads/2021/04/MIJOIPQPQES46VUHJRGJK42VRY.jpg"]
+    },
+    {
+        "id": 5,
+        "name": "BMW S1000 RR",
+        "cc": "999cc",
+        "price": "949.000.000Đ",
+        "imgUrl": ["https://wallpapercave.com/wp/wp4655442.jpg", "https://wallpapercave.com/wp/wp8745011.jpg", "https://wallpapercave.com/wp/wp4655432.jpg"]
+    },
+    {
+        "id": 6,
+        "name": "Aprilia RSV4 RF",
+        "cc": " 999cc",
+        "price": "765.000.000Đ",
+        "imgUrl": ["https://motosaigon.vn/wp-content/uploads/2019/11/2020-aprilia-rsv4-rr-misano-limited-edition2.jpg", "https://motosaigon.vn/wp-content/uploads/2020/02/2020-aprilia-rsv4-rr-03.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRla7Q-GcbNfCzsLNwNfMtn8aeq42AKvwNrGA&usqp=CAU"]
+    },
+    {
+        "id": 7,
+        "name": "Kawasaki Ninja ZX-10R",
+        "cc": "998cc",
+        "price": "729.000.000Đ",
+        "imgUrl": ["https://wallpapercave.com/wp/wp2420901.jpg", "https://content2.kawasaki.com/ContentStorage/KMV/Products/4895/eedabbfa-1b22-445b-aa2a-13027852ffe8.jpg", "https://content2.kawasaki.com/ContentStorage/KMV/Products/4895/0aa0c8b0-b3b0-4d35-b4ce-b98c3e745cef.jpg?w=510&h=340&mode=crop"]
+    },
+    {
+        "id": 8,
+        "name": "Suzuki GSX-R1000",
+        "cc": "999cc",
+        "price": "600.000.000Đ",
+        "imgUrl": ["https://image.vtc.vn/resize/th/upload/2021/04/12/xe2-13194122.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNVQzWG_7RulZs242_-1dvCoHv7m-m8O6Nbit4z2en8a71_Ht1_G89-SDHoQi7iLJsaaA&usqp=CAU", "https://xehay.vn/uploads/images/2020/9/02/Xehay-Suzuki-080920-11.jpg"]
+    },
+    {
+        "id": 9,
+        "name": "MV Agusta F4 RR",
+        "cc": "998cc",
+        "price": "1.300.000.000Đ",
+        "imgUrl": ["https://motosaigon.vn/wp-content/uploads/2020/10/121654195_1461754527349858_5001143582993666015_o.jpg", "https://motosaigon.vn/wp-content/uploads/2020/10/121929226_1460969230761721_7451740457518317506_n.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb-XOVKf5MasTmtFDPwr-R0kOGQQocZaXqOw&usqp=CAU"]
+    },
+    {
+        "id": 10,
+        "name": "Z400 ABS",
+        "cc": "399cc",
+        "price": "149.000.000Đ",
+        "imgUrl": ["https://content2.kawasaki.com/ContentStorage/KMV/Products/4537/7d196832-6161-4185-9b3f-ad0ec073d455.jpg", "https://content2.kawasaki.com/ContentStorage/KMV/Products/4537/90906318-cb9f-407d-96cf-afa66022c4df.jpg?w=510&h=340&mode=crop", "https://content2.kawasaki.com/ContentStorage/CKM/Products/4537/4cf6cbe0-befa-489e-b75e-4f2995741868.jpg?w=510&h=340&mode=crop"]
+    },
+    {
+        "id": 11,
+        "name": "NINJA 650 ABS KRT EDITION",
+        "cc": "649cc",
+        "price": "200.000.000Đ",
+        "imgUrl": ["https://content2.kawasaki.com/ContentStorage/KMV/Products/4522/2cb618fa-4ee3-4d36-b612-10f6078a116f.jpg?w=510&h=340&mode=crop", "https://content2.kawasaki.com/ContentStorage/KMV/Products/4522/8c812694-33e5-4daf-a328-03ae7fa67618.jpg?w=510&h=340&mode=crop", "https://content2.kawasaki.com/ContentStorage/KMV/Products/4522/4f46a355-da46-4024-9ba9-8af2070539ce.jpg"]
+    },
+    {
+        "id": 12,
+        "name": "NINJA ZX-25R SE",
+        "cc": "250cc",
+        "price": "189.000.000Đ",
+        "imgUrl": ["https://content2.kawasaki.com/ContentStorage/KMV/Products/4872/fb930160-6ce0-4bbf-a045-137573762d0d.jpg?w=510&h=340&mode=crop", "https://content2.kawasaki.com/ContentStorage/KMV/Products/4872/eeb9d71d-3afe-40d5-b643-b3a017792592.jpg?w=510&h=340&mode=crop", "https://content2.kawasaki.com/ContentStorage/KMV/Products/4872/b085ab38-bf62-43c7-949a-3a1983725e43.jpg?w=510&h=340&mode=crop"]
+    },
+    {
+        "id": 13,
+        "name": "NINJA 400 ABS KRT EDITION",
+        "cc": "399cc",
+        "price": "162.000.000Đ",
+        "imgUrl": ["https://content2.kawasaki.com/ContentStorage/KMV/Products/4876/c0ea72d9-13e5-43f5-b50a-b61be4cb308e.jpg?w=510&h=340&mode=crop", "https://content2.kawasaki.com/ContentStorage/KMV/Products/4876/5da6ad14-7275-4483-95a6-15476a3d87da.jpg?w=510&h=340&mode=crop", "https://content2.kawasaki.com/ContentStorage/KMV/Products/4876/5a3ed913-64b8-48c5-a06c-934065f83710.jpg?w=510&h=340&mode=crop"]
+    },
+    {
+        "id": 14,
+        "name": "Z900RS",
+        "cc": "948cc",
+        "price": "415.000.000Đ",
+        "imgUrl": ["https://content2.kawasaki.com/ContentStorage/CKM/Products/4535/9acd8028-4deb-4946-9738-7d146410b7b3.jpg?w=510&h=340&mode=crop", "https://content2.kawasaki.com/ContentStorage/CKM/Products/4535/67d2444f-155d-4efb-b858-9c05a9b2c09b.jpg?w=510&h=340&mode=crop", "https://content2.kawasaki.com/ContentStorage/CKM/Products/4535/746d41fe-5467-44fd-ae11-61c892cce0d3.jpg?w=510&h=340&mode=crop"]
+    },
+    {
+        "id": 15,
+        "name": "VULCAN S ABS",
+        "cc": "649cc",
+        "price": "239.000.000Đ",
+        "imgUrl": ["https://content2.kawasaki.com/ContentStorage/KMV/Products/4879/03f9801d-f9f1-4a73-b682-cc8416691b4d.jpg?w=510&h=340&mode=crop", "https://content2.kawasaki.com/ContentStorage/KMV/Products/4879/ca3c8ce5-a77d-4539-b997-5be41fcda168.jpg?w=510&h=340&mode=crop", "https://content2.kawasaki.com/ContentStorage/KMV/Products/4879/ada88b86-9c16-4471-886d-9070da533f24.jpg?w=510&h=340&mode=crop"]
+    }
+]

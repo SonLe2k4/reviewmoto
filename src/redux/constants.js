@@ -1,0 +1,17 @@
+const SET_SEARCH = 'setSearch';
+const SET_IDMOREINFOMOTO = 'setIdMoreInFoMoto';
+const SET_OPENNAVMOBILE = 'setOPENNavMobile'
+const SET_SEARCHINPUTINPAGEVIEW = 'setSearchInPageView'
+const SET_GALERRYSHOW = 'setGalerryShow'
+const SET_IMGSHOWGALERRY = 'setImgshowgalerry'
+const SET_LOCALLISTMOTOUSERINPUT = 'setLocallistmotouserinput'
+
+export { 
+    SET_SEARCH, 
+    SET_IDMOREINFOMOTO,
+    SET_OPENNAVMOBILE,
+    SET_SEARCHINPUTINPAGEVIEW,
+    SET_GALERRYSHOW,
+    SET_IMGSHOWGALERRY,
+    SET_LOCALLISTMOTOUSERINPUT
+}

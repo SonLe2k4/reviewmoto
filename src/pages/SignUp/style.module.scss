@@ -1,0 +1,88 @@
+@import '../../sass'; 
+
+.wp {
+    margin-top: $h_nav;
+    position: relative;
+    @include d-f(center, center);
+    &::after {
+        @include absolute(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.342);
+    }
+    background: $_9e9 url('https://wallpapercave.com/wp/wp2402111.jpg') center / cover no-repeat;
+    height: 100vh;
+    #register_form {
+        width: 360px;
+        color: $_fff;
+        z-index: 2;
+        border: 1px solid $_fff;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.575);
+        min-height: 100px;
+        padding: 32px 24px;
+        text-align: center;
+        margin: 24px;
+        align-self: center;
+        box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.411);
+        .heading {
+            margin-bottom: 15px;
+        }
+        .changeSelector {
+            margin-top: 10px;
+            display: block;
+            & a {
+                color: $_fff;
+                margin-left: 8px;
+            }
+        }
+        .form_group {
+            display: flex;
+            margin-bottom: 16px;
+            justify-content: start;
+            flex-direction: column;
+            &.invalid .form_control {
+                border-color: #f33a58;
+                background-color: #f33a580f;
+                color: $_fff;
+            }
+            &.invalid .form_message {
+                color: #f33a58;
+                text-align: start;
+            }
+            .form_label {
+                font-weight: 700;
+                text-align: start;
+                padding-bottom: 6px;
+            }
+            .form_control {
+                height: 40px;
+                padding: 8px 12px;
+                border: 1px solid #b3b3b3;
+                border-radius: 3px;
+                outline: none;
+                transition: .2s linear;
+                &:hover {
+                    border: 2px solid $_border_primary;
+                }
+            }
+        }
+        .form_submit {
+            outline: none;
+            background-color: $_000;
+            border: 1px solid $_fff;
+            border-radius: 8px;
+            margin-top: 12px;
+            padding: 12px 16px;
+            font-weight: 600;
+            color: #fff;
+            width: 100%;
+            font-size: 14px;
+            cursor: pointer;
+            transition: .3s linear;
+            &:hover {
+                border: 1px solid $_000;
+                color: $_000;
+                background-color: $_fff;
+            }
+        }
+    }
+}

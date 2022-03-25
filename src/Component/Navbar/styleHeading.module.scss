@@ -1,0 +1,316 @@
+@import '../../sass';
+
+.logo {
+    width: 140px;
+    @include smallest_has_limit {
+        width: 230px;
+    }
+    @include landscape_phones_has_limit {
+        width: 230px;
+    }
+    @include phones_has_limit {
+        width: 230px;
+    }
+}
+
+.logo_link,
+.nav_item,
+.heading_ul,
+.heading_nav {
+    @include d-f(center, none);
+}
+.heading_ul,
+.nav_item {
+    height: 100%;
+} 
+
+.heading_nav.scrolled {
+    background-color: rgba(0, 0, 0, 0.486);
+    height: $h_nav_scrolled;
+    @include smallest_has_limit {
+        background-color: rgba(0, 0, 0, 0.856);
+    }
+    @include phones_has_limit {
+        background-color: rgba(0, 0, 0, 0.856);
+    }
+    @include landscape_phones_has_limit {
+        background-color: rgba(0, 0, 0, 0.856);
+    }
+}
+
+.heading_nav.scrolled .submenu {
+    top: ($h_nav_scrolled - 1px) !important;
+    @include smallest_has_limit {
+        top: 60px !important;
+    }
+    @include phones_has_limit {
+        top: 60px !important;
+    }
+    @include landscape_phones_has_limit {
+        top: 60px !important;
+    }
+}
+
+.closeNavMobile,
+.iconNavMobile {
+    color: $_fff;
+    @include w-h(45px, 45px);
+    @include d-f(center, center);
+}
+
+.closeNavMobile {
+    font-size: 25px;
+    margin: 0 auto;
+    @include tablets {
+        display: none;
+    }
+}
+
+.navMobile {
+    @include fixed(0);
+    z-index: 90;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.486);
+    @include tablets {
+        display: none;
+    }
+}
+
+.heading_nav {
+    @include smallest_has_limit {
+        height: 100% !important;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.856);
+        width: 100vw;
+        justify-content: start;
+        // hidden
+        transform: translateX(-100%);
+        opacity: 0;
+    };
+    @include landscape_phones_has_limit {
+        height: 100% !important;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.856);
+        width: 100vw;
+        justify-content: start;
+        // hidden
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    @include phones_has_limit {
+        height: 100% !important;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.856);
+        width: 100vw;
+        justify-content: start;
+        // hidden
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    box-shadow: 0px 4px 13px rgb(0 0 0 / 53%);
+    transition: all .4s ease;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    height: $h_nav;
+    background-color: $_222;
+    color: $_fff; 
+    border-bottom: 1px solid $_border_primary;
+    .logo_link {
+        margin-left: 5px;
+    }
+    .heading_ul {
+        @include smallest_has_limit {
+            flex-direction: column;
+            height: auto;
+        };
+        @include landscape_phones_has_limit {
+            flex-direction: column;
+            height: auto;
+        }
+        @include phones_has_limit {
+            flex-direction: column;
+            height: auto;
+        }
+        justify-content: space-around;
+        .nav_icon {
+            padding-right: 5px;
+            font-size: 20px;
+        }
+        .nav_item {
+            position: relative;
+            transition: all 0.5s;
+            min-width: 140px;
+            margin: 0 16px;
+            @include smallest_has_limit {
+                height: 60px;
+                margin: 0;
+            }
+            @include phones_has_limit {
+                height: 60px;
+                margin: 0;
+            }
+            @include landscape_phones_has_limit {
+                height: 60px;
+                margin: 0;
+            }
+            &:hover > .submenu {
+                display: block;
+            }
+            &::after {
+                content: "";
+                bottom: 0;
+                background-color: red;
+                height: 4px;
+                width: 0%;
+                position: absolute;
+                transition: cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s;
+            }
+            &:hover::after {
+                width: 100%;   
+            }
+            &:hover {
+                background-color: $_fff;
+            }
+            &:hover .nav_item_link {
+                color: $_222;
+            } 
+            .nav_item_link {
+                @include smallest_has_limit {
+                    justify-content: start;
+                    padding-left: 60px;
+                    border-bottom: 1px solid $_border_primary;
+                }
+                @include landscape_phones_has_limit {
+                    justify-content: start;
+                    padding-left: 60px;
+                    border-bottom: 1px solid $_border_primary;
+                }
+                @include phones_has_limit {
+                    justify-content: start;
+                    padding-left: 60px;
+                    border-bottom: 1px solid $_border_primary;
+                }
+                @include d-f(center, center);
+                text-transform: uppercase;
+                color: $_fff; 
+                text-decoration: none;
+                width: 100%;
+                height: 100%;
+                transition: all 0.3s;
+                line-height: 100%;
+                text-align: center;
+                padding: 0 5px;
+                font-size: 18px;
+            }
+            .has_child {
+                position: relative;
+                z-index: 3;
+                &:hover .contact_menu {
+                    transform: translateX(0);
+                }
+            }
+            
+            .submenu {
+                display: flex;
+                width: 120%;
+                @include smallest_has_limit {
+                    width: 100%;
+                    top: 60px ;
+                    right: 0 !important;
+                }
+                @include landscape_phones_has_limit {
+                    width: 100%;
+                    top: 60px ;
+                    right: 0 !important;
+                }
+                @include phones_has_limit {
+                    width: 100%;
+                    top: 60px ;
+                    right: 0 !important;
+                }
+                flex-direction: column;
+                list-style: none;
+                position: absolute;
+                background: $_333;
+                top: ($h_nav - 1px);                
+                border: 1px solid $_border_primary;
+                .item_contact + .item_contact {
+                    border-top: 1px solid $_eee;
+                }
+                .item_link_contact {
+                    &:hover {
+                        background: $_555; 
+                    }
+                    @include smallest_has_limit {
+                        justify-content: start;
+                    }
+                    @include landscape_phones_has_limit {
+                        justify-content: start;
+                    }
+                    @include phones_has_limit {
+                        justify-content: start;
+                    }
+                    .icon_social {
+                        @include smallest_has_limit {
+                            margin-right: 5px;
+                        }
+                        @include landscape_phones_has_limit {
+                            margin-right: 5px;
+                        }
+                        @include phones_has_limit {
+                            margin-right: 5px;
+                        }   
+                    }
+                    transition: .3s ease;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px 8px;
+                    text-decoration: none;
+                    color: $_fff;
+                }     
+            }
+            .contact_menu {
+                display: none;
+                animation: fadeIn .6s ease;
+                right: -17px;
+                z-index: 1;
+            }
+        }
+        .search {
+            list-style: none;
+            width: 70px;
+            @include d-f(center, center);
+            cursor: pointer;            
+            @include smallest_has_limit {
+                width: 100%;
+                padding: 20px;
+            }
+            @include phones_has_limit {
+                width: 100%;
+                padding: 20px;
+            }
+            @include landscape_phones_has_limit {
+                width: 100%;
+                padding: 20px;
+            }
+        }
+    }
+}
+.heading_nav.open {
+    @include smallest_has_limit {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    @include phones_has_limit {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    @include landscape_phones_has_limit {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

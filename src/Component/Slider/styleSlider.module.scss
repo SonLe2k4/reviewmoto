@@ -1,0 +1,105 @@
+@import '../../sass';
+
+.slider_wp {
+    position: relative;
+    @include smallest_has_limit {
+        height: auto;
+        margin-top: 100px;
+    }
+    @include landscape_phones_has_limit {
+        height: auto;
+        margin-top: 100px;
+    }
+    @include phones_has_limit {
+        height: auto;
+        margin-top: 100px;
+    }
+    @include d-f(center, center);
+    margin-top: 80px;
+    .greeting {
+        & h1 {
+            font-family: 'League Gothic', sans-serif;
+            font-family: 'League Spartan', sans-serif;
+            @include smallest_has_limit {
+                font-size: 20px;
+            }
+            @include landscape_phones_has_limit {
+                font-size: 20px;
+            }
+            @include phones_has_limit {
+                font-size: 20px;
+            }
+        }
+        & h2 {
+            font-family: 'League Gothic', sans-serif;
+            font-family: 'League Spartan', sans-serif;
+            font-family: 'Sansita Swashed', cursive;
+            @include smallest_has_limit {
+                font-size: 16px;
+            }
+            @include landscape_phones_has_limit {
+                font-size: 16px;
+            }
+            @include phones_has_limit {
+                font-size: 16px;
+            }
+        }
+        z-index: 3;
+        animation: changeColor 6s infinite;
+        @include absolute(auto, auto, 10%, 17%)
+    }
+    .slider {
+        transition: 1s ease;
+        opacity: 0;
+        .img_slider {
+            width: 100%;
+            @include smallest_has_limit {
+                height: auto;
+            }
+            @include landscape_phones_has_limit {
+                height: auto;
+            }
+            @include phones_has_limit {
+                height: auto;
+            }       
+            box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+        }
+    }
+    .slider.active {
+        transform: scale(1.1);
+        opacity: 1;
+        border-radius: 10px;
+        max-width: 1000px;
+        @include smallest_has_limit {
+            width: 80%;
+        }
+        @include landscape_phones_has_limit {
+            width: 80%;
+        }
+        @include phones_has_limit {
+            width: 80%;
+        }
+        @include tablets_has_limit {
+            width: 80%;
+        }
+    }
+    .control_arrow {
+        font-size: 1.5rem;
+        border-radius: 50%;
+        @include absolute(50%);
+        z-index: 2;
+        cursor: pointer;
+        transition: .3s ease;
+        &:hover {
+            transform: translateY(-4px);
+            color: $_fff;
+            box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.4);
+        }
+    }
+    .arrow_prev {
+        left: 20px;
+    }
+    .arrow_next {
+        right: 20px;
+    }
+}

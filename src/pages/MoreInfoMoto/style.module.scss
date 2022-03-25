@@ -1,0 +1,304 @@
+@import '../../sass';
+
+@mixin textPrimary($fs: 16px, $fw: 500) {
+    font-family: Oswald;
+    font-weight: $fw;
+    text-transform: uppercase;
+    font-size: $fs;
+}
+
+@mixin border_left {
+    flex-direction: column;
+    flex-basis: 50%;
+    padding-left: 14px;
+    border-left: 5px solid $_border_primary;
+}
+.container {
+    font-family: Oswald;
+    .wp_heading {
+        @include smallest_has_limit {
+            flex-direction: column;
+            align-items: center;
+        }
+        @include landscape_phones_has_limit {
+            flex-direction: column;
+            align-items: center;
+        }
+        @include phones_has_limit {
+            flex-direction: column;
+            align-items: center;
+        }
+        padding: 4px;
+        margin-bottom: 20px;
+        @include d-f(start, end);
+        .heading {
+            @include textPrimary(30px, 500);
+            padding-left: 30px;
+            margin-bottom: 0;
+            max-width: 300px;
+        }
+        .heading_line {
+            display: block;
+            margin-left: 10px;
+            width: 80%;
+            height: 2px;
+            background-color: $_border_primary;
+        }
+    }
+    margin-top: 100px;
+    padding-top: 30px;
+    .wp_content {
+        @include smallest_has_limit {
+            flex-direction: column;
+            padding: 0;
+        }
+        @include landscape_phones_has_limit {
+            flex-direction: column;
+            padding: 0;
+        }
+        @include phones_has_limit {
+            flex-direction: column;
+            padding: 0;
+        }
+        padding: 0 30px;
+        display: flex;
+        align-self: start;
+        & > .left {
+            flex-basis: 50%;
+            @include d-f(center, start);
+            .list_imgModal {
+                padding: 0 10px;
+                list-style: none;
+                width: 710px;
+                & li {
+                    width: 100%;
+                    & .imgModal {
+                        width: 100%;
+                    }   
+                }
+            }
+        }
+        .right {
+            flex-basis: 50%;
+            @include smallest_has_limit {
+                padding: 0 10px;
+            }
+            @include landscape_phones_has_limit {
+                padding: 0 10px;
+            }
+            @include phones_has_limit {
+                padding: 0 10px;
+            }
+            .top_divide {
+                @include d-f(center, center);
+                & .top {
+                    font-weight: 600;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                }
+                & .bottom {
+                    font-size: 25px;
+                    font-family: Oswald;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                @include smallest_has_limit {
+                    flex-direction: column;
+                    align-items: start;
+                }
+                @include landscape_phones_has_limit {
+                    flex-direction: column;
+                    align-items: start;
+                }
+                @include phones_has_limit {
+                    flex-direction: column;
+                    align-items: start;
+                }
+                .left {
+                    flex-direction: column;
+                    flex-basis: 50%;
+                    @include smallest_has_limit {
+                        margin: 10px 0;
+                    }
+                    @include landscape_phones_has_limit {
+                        margin: 10px 0;
+                    }
+                    @include phones_has_limit {
+                        margin: 10px 0;
+                    }
+                    .top {
+                        
+                    }   
+                    .bottom {
+                    } 
+                }
+                .right {
+                    flex-direction: column;
+                    flex-basis: 50%;
+                    padding-left: 14px;
+                    border-left: 5px solid $_border_primary;
+                    .top {
+                    }   
+                    .bottom {
+                    } 
+                }
+            }
+            .accordion {
+                list-style: none;
+                margin: 40px 0;
+                & .collapse {
+                    &.active {
+                        & button {
+                            background-color: $_br_primary_alpha;
+                            & .collapse_icon {
+                                transform: rotate(0);
+                            }
+                        }
+                    }
+                    & button {
+                        transition: background-color .2s ease;
+                        outline: none;
+                        border: none;
+                        @include d-f(space-between, center);
+                        width: 100%;
+                        padding: 10px;
+                        background-color: unset;
+                        cursor: pointer;
+                        @include textPrimary(20px);
+                        & .collapse_icon {
+                            display: flex;
+                            transform: rotate(-180deg);
+                            font-size: 32px;
+                            transition: all 0.5s ease;
+                            float: right;
+                        }
+                    }
+                    cursor: pointer;
+                    border-top: 1px solid $_e5e5e9;
+                    border-bottom: 1px solid $_e5e5e9;
+                    @include textPrimary(20px);
+                    padding: 20px 0;
+                    &.active .accordion_content {
+                        display: block;
+                    }
+                    .accordion_content {
+                        display: none;
+                        animation: fakeInAccordion_content 1s;
+                        margin-top: 30px;
+                        .accordion_content_item {
+                            padding: 10px 0;
+                            @include d-f(start, center);
+                            .img {
+                                margin-right: 30px;
+                                & img {
+    
+                                }
+                            }
+                            .nameTechnology {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }   
+    }
+    .wp_price {
+        background-color: $_e5e5e9;
+        color: $_5a5;
+        padding: 20px;
+        border-top: 5px solid $_border_primary;
+    }
+    .library_img {
+        padding: 90px 24px 0;
+        background-color: $_000;
+        @include smallest_has_limit {
+            padding: 90px 10px 0;
+        }
+        @include landscape_phones_has_limit {
+            padding: 90px 10px 0;
+        }
+        @include phones_has_limit {
+            padding: 90px 10px 0;
+        }
+        & h1 {
+            padding: 0;
+        }
+        & h4 {
+            color: $_9e9;
+            @include border_left();
+            margin-bottom: 30px;
+            @include smallest_has_limit {
+                margin-top: 10px;
+            }
+            @include landscape_phones_has_limit {
+                margin-top: 10px;
+            }
+            @include phones_has_limit {
+                margin-top: 10px;
+            }
+        }
+        .galerry_wp {
+            @include smallest_has_limit {
+                flex-direction: column;
+                align-items: center;
+            }
+            @include landscape_phones_has_limit {
+                flex-direction: column;
+                align-items: center;
+            }
+            @include phones_has_limit {
+                flex-direction: column;
+                align-items: center;
+            }
+            display: flex;
+            .img_beside {
+                flex: 0 0 300px;
+                & img {
+                    width: 100%;
+                }
+            }
+            .galerry {
+                width: 100%;
+                @include d-f(center, center);
+                @include smallest_has_limit {
+                    flex-direction: column;
+                }
+                @include landscape_phones_has_limit {
+                    flex-direction: column;
+                }
+                @include phones_has_limit {
+                    flex-direction: column;
+                }
+                flex-wrap: wrap;
+                & .galerry_item {
+                    width: (100% / 2);
+                    height: 340px;
+                    border: 1px solid $_e5e5e9;
+                    padding: 4px;
+                    overflow: hidden;
+                    @include smallest_has_limit {
+                        width: 100%;
+                        height: 220px;
+                    }
+                    @include landscape_phones_has_limit {
+                        width: 100%;
+                        height: 220px;
+                    }
+                    @include phones_has_limit {
+                        width: 100%;
+                        height: 220px;
+                    }
+                    @include d-f(center, center);
+                    & img {
+                        transition: ease 1s;
+                        width: 100%;
+                        &:hover {
+                            transform: scale(0.8) rotate(10deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+@import '../../sass';
+
+.modalSearch {
+    color: $_fff;
+    z-index: 100;
+    @include fixed;
+    background: $_000 url(../../img/backgrSearch1.jpg) no-repeat center center;
+    .modalSearch_body {
+        @include smallest_has_limit {
+            background: rgba(0, 0, 0, 0.729);
+            padding-top: 200px;
+        }
+        @include landscape_phones_has_limit {
+            background: rgba(0, 0, 0, 0.729);
+            padding-top: 200px;
+        }
+        @include phones_has_limit {
+            background: rgba(0, 0, 0, 0.729);
+            padding-top: 200px;
+        }
+        padding-top: 10%; 
+        @include absolute(0, 0, 0, 0);
+        @include d-f(unset, center);
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.329);
+        .wp_btn_close {
+            @include fixed(20px, 20px, unset, unset);
+            color: $_fff;
+            font-size: 2rem;
+            cursor: pointer;
+            .icon_close {
+                transition: .2s linear;
+            }
+            &:hover .icon_close {
+                transform: rotate(90deg);
+            }
+        }
+        .searchLabel {
+            font-family: 'Montserrat',sans-serif;
+            font-size: 28px;
+            margin-bottom: 10px;
+            @include smallest_has_limit {
+                font-size: 20px;
+            }
+            @include landscape_phones_has_limit {
+                font-size: 20px;
+            }
+            @include phones_has_limit {
+                font-size: 20px;
+            }
+        }   
+        .searchInput {
+            height: 120px;
+            color: $_fff;
+            background:rgba(0, 0, 0, 0.329);
+            outline: unset;
+            width: 70%;
+            text-align: center;
+            font-size: 4rem;
+            font-weight: 700;
+            font-family: 'Montserrat',sans-serif;
+            @include smallest_has_limit {
+                font-size: 20px;
+                height: 38px;
+            }
+            @include landscape_phones_has_limit {
+                font-size: 20px;
+                height: 38px;
+            }
+            @include phones_has_limit {
+                font-size: 20px;
+                height: 38px;
+            }
+        }  
+        .wp_bottom {
+            width: 70%;
+            margin-top: 40px;
+            padding-top: 4px;
+            border-top: 2px solid $_555; 
+            @include d-f(space-between, center);
+            .suggestions_wrap {
+                .list_suggestions {
+                    @include d-f(space-between, center);
+                    list-style: none;
+                    flex-wrap: wrap;
+                    max-width: 550px;
+                    .item_suggestions {
+                        margin: 0 4px;
+                    }
+                    .item_suggestions a {
+                        text-decoration: none;
+                        color: $_9e9;
+                        font-size: 14px;
+                        font-family: sans-serif;
+                    }
+                }
+            }
+            .dict_sentence {
+            
+            }
+        }
+    }
+}

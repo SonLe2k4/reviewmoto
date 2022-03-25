@@ -1,0 +1,137 @@
+@import '../../sass';
+
+.footer {
+    color: $_fff;
+    // border-top: 30px solid $_fff;
+    background-color: $_000;
+    padding: 50px 0;
+    flex-direction: column;
+    @include d-f(center, center);
+    .logo_footer {
+        .link_logo_footer {
+            @include d-f(center, center);
+        }
+        .link_logo_footer img {
+            width: 100%;
+            @include smallest_has_limit {
+                width: 70%;
+            }
+            @include phones_has_limit {
+                width: 70%;
+            }
+            @include landscape_phones_has_limit {
+                width: 70%;
+            }
+        }
+    }
+    .text {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .list_social_network {
+        @include d-f(space-around, center);
+        list-style: none;
+        @include smallest_has_limit {
+            width: 100%;
+            max-width: 330px;
+        }
+        @include phones_has_limit {
+            width: 100%;
+            max-width: 330px;
+        }
+        @include landscape_phones_has_limit {
+            width: 100%;
+            max-width: 330px;
+        }
+        width: 350px;
+        .item_social_network {
+            
+        }
+        .item_social_network a {
+            font-size: 28px;
+            color: $_fff;
+            @include d-f(center, center);
+            transition: .1s linear;
+            &:hover {
+                transform: rotate(10deg) translateY(-4px);
+            }
+        } 
+        .search {
+            cursor: pointer;
+            @include d-f(center, center);
+            font-size: 28px;
+        }
+    }
+    .special_menu {
+        @include smallest_has_limit {
+            flex-direction: column;
+        }
+        @include phones_has_limit {
+            flex-direction: column;
+        }
+        @include landscape_phones_has_limit {
+            flex-direction: column;
+        }
+        margin-top: 50px;
+        @include d-f(center, center);
+        flex-direction: row;
+        list-style-type: none;
+        .item_special_menu {
+            margin: 0 8px;
+            @include smallest_has_limit {
+                margin-bottom: 10px;
+                width: 100%;
+                text-align: center;
+                padding: 10px 0;
+            }
+            @include phones_has_limit {
+                margin-bottom: 10px;
+                width: 100%;
+                text-align: center;
+                padding: 10px 0;
+            }
+            @include landscape_phones_has_limit {
+                margin-bottom: 10px;
+                width: 100%;
+                text-align: center;
+                padding: 10px 0;
+            }
+        }
+        .item_special_menu a {
+            color: $_fff;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    }
+    .copyright {
+        margin: 20px auto;
+    }   
+    .bottom_footer {
+        position: relative;
+        &::after {
+            width: 480px;
+            transform: translateX(-50%);
+            height: 2px;
+            background-color: rgb(107, 107, 107);
+            @include absolute(6px, auto, auto, 50%);
+            @include smallest_has_limit {
+                width: 80%;
+            }
+            @include phones_has_limit {
+                width: 80%;
+            }
+            @include landscape_phones_has_limit {
+                width: 80%;
+            }
+        }
+        width: 100%;
+        background-color: $_fff;
+        padding: 18px 0 50px 0;
+        color: rgba(0, 0, 0, 0.541);
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
