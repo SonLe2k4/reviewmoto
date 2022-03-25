@@ -320,7 +320,7 @@ const View = () => {
                     ))
                 }
             </ul>
-            <div>Dưới đây là danh sách moto được thêm vào</div>
+            <div className={styles.bulkhead}>Dưới đây là danh sách moto được thêm vào</div>
             <ul className={styles.list_item}>
                 {
                     dataLocalListMotoUserInput !== null &&
