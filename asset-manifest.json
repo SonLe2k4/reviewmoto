@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reviewmoto/static/css/main.e72b66b3.css",
-    "main.js": "/reviewmoto/static/js/main.5fa48b6d.js",
+    "main.css": "/reviewmoto/static/css/main.4fb02a9f.css",
+    "main.js": "/reviewmoto/static/js/main.09bc5812.js",
     "static/media/slider4.jpg": "/reviewmoto/static/media/slider4.e12b7190553eed8deee7.jpg",
     "static/media/backgrSearch1.jpg": "/reviewmoto/static/media/backgrSearch1.08630b4ee36c57b38f0e.jpg",
     "static/media/slider3.jpg": "/reviewmoto/static/media/slider3.9a9f9bce5ab16fa94cf4.jpg",
@@ -9,11 +9,11 @@
     "static/media/slider2.jpg": "/reviewmoto/static/media/slider2.f3e4018e4ea792f5aec3.jpg",
     "static/media/logo.png": "/reviewmoto/static/media/logo.ff14feae181eed0967e0.png",
     "index.html": "/reviewmoto/index.html",
-    "main.e72b66b3.css.map": "/reviewmoto/static/css/main.e72b66b3.css.map",
-    "main.5fa48b6d.js.map": "/reviewmoto/static/js/main.5fa48b6d.js.map"
+    "main.4fb02a9f.css.map": "/reviewmoto/static/css/main.4fb02a9f.css.map",
+    "main.09bc5812.js.map": "/reviewmoto/static/js/main.09bc5812.js.map"
   },
   "entrypoints": [
-    "static/css/main.e72b66b3.css",
-    "static/js/main.5fa48b6d.js"
+    "static/css/main.4fb02a9f.css",
+    "static/js/main.09bc5812.js"
   ]
 }
